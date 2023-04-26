@@ -39,44 +39,44 @@ class Lecturer {
 	Lecturer() //Using constructor for get the User Values2
 	{
 		cout << "\nLecturer number : ";
-    	cin>>lecturer;
+    	        cin>>lecturer;
 	
 		cin.ignore(); // to clear the input buffer   
     	
 		cout << "Enter name  : ";
-    	getline(cin, name);
+    	        getline(cin, name);
   
     
-    	cout << "Enter course :";
-    	getline(cin, course);
+    	        cout << "Enter course :";
+         	getline(cin, course);
         
 
-    	cout << "Enter subject  : ";
-    	getline(cin, subject);
+         	cout << "Enter subject  : ";
+        	getline(cin, subject);
 
 
-    	cout << "Enter no of lectures : ";
-    	cin>>no_lectures;
+          	cout << "Enter no of lectures : ";
+    	        cin>>no_lectures;
     	
-		cout << "Enter hours : ";
-    	cin>>hours;
+        	cout << "Enter hours : ";
+         	cin>>hours;
     	  	    	
-		cout << "Enter minutes : ";
-    	cin>>min;
+        	cout << "Enter minutes : ";
+         	cin>>min;
     	
     	
-    	cin.ignore(); // to clear the input buffer  
+         	cin.ignore(); // to clear the input buffer  
 	} 
 	
 	void show_details() // To print the Lecturers Details
 	{
-			cout<<"\n\n***************************** Show the Lecturers Details ************************************";
-			cout<<endl<<"Lecturer No.-"<<lecturer<<endl;
-            cout << "Name: " << name << endl;
-            cout << "Course: " << course << endl;
-            cout << "Subject: " << subject << endl;           
-            cout << "No of Lectures : " << no_lectures << endl;
-            cout << "Total Hours : " << hours << " hours "<<min<<" min"<< endl;
+		cout<<"\n\n***************************** Show the Lecturers Details ************************************";
+		cout<<endl<<"Lecturer No.-"<<lecturer<<endl;
+                cout << "Name: " << name << endl;
+                cout << "Course: " << course << endl;
+                cout << "Subject: " << subject << endl;           
+                cout << "No of Lectures : " << no_lectures << endl;
+                cout << "Total Hours : " << hours << " hours "<<min<<" min"<< endl;
 	}   
 };	
 
